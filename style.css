@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    border: 2px solid goldenrod;
+    background-image: linear-gradient(to left,rgb(255, 80, 80),rgb(255, 107, 97));
+}
+ul{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding-bottom: 3vh;
+}
+li{
+    display: inline-block;
+    padding:  0 3em;
+    font-family: 'Rajdhani', sans-serif;
+}
+li a{
+    text-decoration: none;
+    color: White;
+    border: 2px solid goldenrod;
+    background-color: goldenrod;
+    border-radius: 6px;
+}
+
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-top:3vh;
+    padding-left: 2vh;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5rem;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width:500px) {
+    .logo{
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 3.5vh;
+    }
+    
+}
+.home{
+    background-image: radial-gradient(rgb(255, 80, 80),rgb(255, 107, 97));
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+div img{
+    opacity: 0.3;
+}
+.about{
+    background-image: radial-gradient(rgb(255, 80, 80),rgb(255, 107, 97));
+    height:80vh;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4vh;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 2em;
+}
+
+.box{
+    background-color: rgba(255, 255, 255, 0.171);
+    /* opacity: 0.6; */
+    height: 30vh;
+    color: black;
+    font-size: 18px;
+    
+}
+.box p{
+    padding: 0 3vh;
+}
+button{
+    background-color: goldenrod;
+    border: 5px solid goldenrod ;
+    height: 5vh;
+    border-radius: 5px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    height: 6vh;
+    
+}
+.contact{
+    background-image: radial-gradient(rgb(255, 80, 80),rgb(255, 107, 97));
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.849);
+    color: rgb(255, 163, 163);
+    height: 25vh;
+    border-top: goldenrod 2px solid;
+    padding: 0 11vh;
+
+}
+footer p a{
+    color: rgb(166, 31, 255);
+    text-decoration: none;
+    
+}
